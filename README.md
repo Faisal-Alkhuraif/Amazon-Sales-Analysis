@@ -18,7 +18,7 @@ To run the Sales Analysis Dashboard locally, follow these steps:
 
 bash
 ```
-git clone https://github.com/yourusername/sales-analysis-dashboard.git
+git clone https://github.com/Faisal-Alkhuraif/Amazon-Sales-Analysis.git
 ```
 ## Install the required dependencies:
 
