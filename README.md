@@ -1,44 +1,49 @@
-# Amazon Sales Dataset
-This repository contains code for analyzing sales data and visualizing insights using Python and various data visualization libraries.
+# Amazon Sales Analysis
 
-# Overview
-The Sales Analysis Dashboard is designed to analyze sales data from an e-commerce platform and provide valuable insights to stakeholders. The dashboard includes various visualizations such as line charts, bar charts, and pie charts to showcase sales trends, revenue distribution, and other key metrics.
+This Jupyter Notebook (`amazon.ipynb`) provides an analysis of sales data from the "Amazon Sale Report" dataset.
 
-# Features
-* Analyze daily sales trends
-* Visualize revenue distribution by category
-* Compare sales performance across different channels
-* Identify top-performing cities and regions
-* Monitor shipment status and order fulfillment
+## Dataset
 
-# Installation
-To run the Sales Analysis Dashboard locally, follow these steps:
+The dataset used in this analysis is named "Amazon Sale Report". It contains information about Amazon sales, including order IDs, dates, statuses, fulfillment details, sales channels, categories, sizes, quantities, amounts, shipping details, and more.
 
-## Clone the repository:
+## Analysis
 
-bash
+The notebook covers various aspects of the sales data, including:
+
+- Exploratory data analysis (EDA) to understand the structure and content of the dataset
+- Data cleaning and preprocessing steps to handle missing values and inconsistencies
+- Visualization of sales trends over time using line charts
+- Comparison of sales performance by category using bar charts
+- Examination of revenue distribution by sales channel using pie charts
+- Analysis of sales disparities and geographical sales distribution
+- Prediction of future sales trends using machine learning models (if applicable)
+
+## Usage
+
+To run the analysis notebook:
+
+1. Clone the repository:
 ```
 git clone https://github.com/Faisal-Alkhuraif/Amazon-Sales-Analysis.git
 ```
-## Install the required dependencies:
-
+2. Navigate to the directory:
 ```
-pip install -r requirements.txt
+cd amazon-sales-analysis
 ```
-
-## Run the dashboard:
-
+3. Launch Jupyter Notebook:
 ```
-python dashboard.py
+jupyter notebook amazon.ipynb
 ```
-## Access the dashboard in your web browser at http://localhost:8000.
+4. Open the `amazon.ipynb` notebook in your web browser and execute the cells to run the analysis.
 
-# Usage
+## Requirements
 
-Once the dashboard is running, you can navigate through different tabs and visualizations to explore the sales data. Use the interactive features such as filtering and zooming to dive deeper into specific metrics and trends.
+- Python 3.12
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-Contributing
-Contributions are welcome! If you have any suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
